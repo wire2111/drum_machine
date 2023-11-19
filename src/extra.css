@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #root {
+    margin: 3rem auto 0 auto;
+    width: 25%;
+    border-radius: 4px;
+    background-color: #2ab05d;
+    padding: 0 2rem 2rem 2rem;
+  }
+  
+  #drum-machine {
+  }
+  
+  h1 {
+    display: block;
+    text-align: center;
+  }
+  
+  #drum-pads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1.5rem;
+  }
+  
+  .drum-pad {
+    width: 30%;
+    line-height: 3rem;
+  }
